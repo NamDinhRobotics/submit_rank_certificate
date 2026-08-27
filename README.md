@@ -2,10 +2,6 @@
 
 Reproduction code and supplementary video.
 
-**The paper is not in this repository.** It belongs on arXiv, which gives it an
-identifier and a version history that a PDF in a git repository does not. The
-arXiv link goes here once it is posted.
-
 ## What the work says
 
 A semidefinite relaxation of collision-free motion planning is exact when the
