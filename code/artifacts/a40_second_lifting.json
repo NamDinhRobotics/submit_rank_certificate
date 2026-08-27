@@ -1,0 +1,540 @@
+{
+ "gates": {
+  "a40a_pencil_survives": {
+   "n": 30,
+   "n_new": 22,
+   "n_costs": 4,
+   "degrees": [
+    3,
+    5
+   ],
+   "dims": [
+    2,
+    3
+   ],
+   "n_posed": 32,
+   "n_tight": 2,
+   "tight_costs": [
+    "mass (k=0)",
+    "mass (k=0)"
+   ],
+   "n_thm6": 30,
+   "worst_pencil_residual": 6.7593847918046885e-06,
+   "passed": true
+  },
+  "a40b_contact_bound_survives": {
+   "n": 30,
+   "n_bound": 30,
+   "passed": true
+  },
+  "a40c_bernstein_recheck": {
+   "elevated_min": {
+    "derivative (control)": -0.024297046994484546,
+    "weighted 1+4s": -0.02167329293670915,
+    "tikhonov +lambda I": -0.012411997525853452,
+    "mass (k=0)": -0.45088101185838103
+   },
+   "n_costs": 4,
+   "n_negative": 4,
+   "n_costs_total": 4,
+   "passed": true
+  },
+  "a40d_multiseg_transfer": {
+   "rows": [
+    {
+     "N": 2,
+     "derivative (control)": 0.0,
+     "r": 5,
+     "weighted 1+4s": 0.0,
+     "tikhonov +lambda I": 0.0,
+     "mass (k=0)": -0.192260252852299
+    },
+    {
+     "N": 3,
+     "derivative (control)": 0.0,
+     "r": 8,
+     "weighted 1+4s": 0.0,
+     "tikhonov +lambda I": 0.0,
+     "mass (k=0)": -0.19226025285229917
+    },
+    {
+     "N": 4,
+     "derivative (control)": 0.0,
+     "r": 11,
+     "weighted 1+4s": 0.0,
+     "tikhonov +lambda I": 0.0,
+     "mass (k=0)": -0.19134481961147262
+    }
+   ],
+   "n": 3,
+   "tol": 1e-09,
+   "worst_abs": 0.19226025285229917,
+   "n_control_certified": 3,
+   "n_weighted_certified": 3,
+   "n_tikhonov_certified": 3,
+   "n_mass_certified": 0,
+   "n_all_certified": 0,
+   "passed": true
+  },
+  "a40e_three_contacts": {
+   "n": 4,
+   "max_m": 3,
+   "costs_reaching_m3": [
+    "derivative (control)",
+    "mass (k=0)",
+    "tikhonov +lambda I"
+   ],
+   "n_thm6": 4,
+   "worst_pencil_residual": 1.8301721256429584e-06,
+   "passed": true
+  },
+  "a40f_mass_rho2_arbitrated": {
+   "readings": [
+    {
+     "solver": "CLARABEL",
+     "tol": 1e-11,
+     "status": "optimal",
+     "lam1": 13.57969501194464,
+     "lam2": 1.2800000003036036,
+     "ratio": 0.09425837614009161,
+     "cost": 0.996901173485335
+    },
+    {
+     "solver": "CLARABEL",
+     "tol": 1e-09,
+     "status": "optimal",
+     "lam1": 13.579812878089346,
+     "lam2": 1.280000001758107,
+     "ratio": 0.09425755813052121,
+     "cost": 0.9969011750478707
+    },
+    {
+     "solver": "SCS",
+     "tol": 1e-10,
+     "status": "optimal",
+     "lam1": 13.579664982636455,
+     "lam2": 1.2800000000002982,
+     "ratio": 0.09425858455543354,
+     "cost": 0.9969011733856403
+    }
+   ],
+   "n": 3,
+   "ratio_spread": 1.0264249123287383e-06,
+   "ratio": 0.09425755813052121,
+   "cost_spread": 1.6622303533608829e-09,
+   "passed": true
+  },
+  "a40g_ambient_dimension": {
+   "n": 4,
+   "n_posed": 4,
+   "n_thm6": 4,
+   "passed": true
+  }
+ },
+ "rows": [
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 1,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.2987463845670404e-11,
+   "mu1": 0.9999999999845284,
+   "mu2": null,
+   "cost": "derivative (control)",
+   "instance": "symmetric_blocker",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.0796506922863834e-06,
+   "mu1": 0.9999998205828776,
+   "mu2": 0.2768073492161845,
+   "cost": "derivative (control)",
+   "instance": "staggered_pair",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.3209884968152782e-06,
+   "mu1": 0.9999996198534035,
+   "mu2": 0.47814244539655176,
+   "cost": "derivative (control)",
+   "instance": "three_in_a_row",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 1,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 6.326029807734264e-08,
+   "mu1": 0.9999999640422589,
+   "mu2": null,
+   "cost": "weighted 1+4s",
+   "instance": "symmetric_blocker",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 4.666554044255378e-07,
+   "mu1": 0.9999999975937068,
+   "mu2": 0.12446171738157605,
+   "cost": "weighted 1+4s",
+   "instance": "staggered_pair",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.2106534333228607e-06,
+   "mu1": 1.0000000788866659,
+   "mu2": 0.25512977537171116,
+   "cost": "weighted 1+4s",
+   "instance": "three_in_a_row",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 1,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 2.5402099175016082e-12,
+   "mu1": 0.9999999999985594,
+   "mu2": null,
+   "cost": "tikhonov +lambda I",
+   "instance": "symmetric_blocker",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.4644394952523598e-07,
+   "mu1": 0.9999999714764514,
+   "mu2": 0.28598125355803816,
+   "cost": "tikhonov +lambda I",
+   "instance": "staggered_pair",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 2.741855247839311e-06,
+   "mu1": 1.000000883845572,
+   "mu2": 0.4742532498590899,
+   "cost": "tikhonov +lambda I",
+   "instance": "three_in_a_row",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 2,
+   "m": 3,
+   "ker_dim": 2,
+   "n_unit": 2,
+   "pencil_residual": 1.586363282691258e-16,
+   "mu1": 0.9999999992312872,
+   "mu2": 0.9999999978804701,
+   "cost": "mass (k=0)",
+   "instance": "symmetric_blocker",
+   "d": 3
+  },
+  {
+   "status": "tight",
+   "rho": 0,
+   "cost": "mass (k=0)",
+   "instance": "staggered_pair",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 2,
+   "m": 3,
+   "ker_dim": 2,
+   "n_unit": 2,
+   "pencil_residual": 2.423209939310663e-16,
+   "mu1": 0.9999999999385298,
+   "mu2": 0.9999999998489114,
+   "cost": "mass (k=0)",
+   "instance": "three_in_a_row",
+   "d": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 1,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 2.217398464296232e-10,
+   "mu1": 0.9999999999817902,
+   "mu2": null,
+   "cost": "derivative (control)",
+   "instance": "symmetric_blocker",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.4933421849494892e-08,
+   "mu1": 1.000000006875796,
+   "mu2": 0.37446902672352045,
+   "cost": "derivative (control)",
+   "instance": "staggered_pair",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 6.7593847918046885e-06,
+   "mu1": 0.9999962519625207,
+   "mu2": 0.5100729255927325,
+   "cost": "derivative (control)",
+   "instance": "three_in_a_row",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 1,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.0177422844665153e-06,
+   "mu1": 1.0000000277312981,
+   "mu2": null,
+   "cost": "weighted 1+4s",
+   "instance": "symmetric_blocker",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 8.334088407267609e-07,
+   "mu1": 0.9999999265029277,
+   "mu2": 0.3512735769097194,
+   "cost": "weighted 1+4s",
+   "instance": "staggered_pair",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.3869815911622082e-07,
+   "mu1": 1.0000000677800842,
+   "mu2": 0.4890332954134272,
+   "cost": "weighted 1+4s",
+   "instance": "three_in_a_row",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 1,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 3.383348367044876e-08,
+   "mu1": 0.9999999999439277,
+   "mu2": null,
+   "cost": "tikhonov +lambda I",
+   "instance": "symmetric_blocker",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 2.5089518363172395e-06,
+   "mu1": 1.0000012182131062,
+   "mu2": 0.38143695160900015,
+   "cost": "tikhonov +lambda I",
+   "instance": "staggered_pair",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.5657767415039915e-06,
+   "mu1": 0.9999992826599136,
+   "mu2": 0.5548151754099598,
+   "cost": "tikhonov +lambda I",
+   "instance": "three_in_a_row",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 4,
+   "m": 5,
+   "ker_dim": 4,
+   "n_unit": 4,
+   "pencil_residual": 2.6694908947407455e-09,
+   "mu1": 1.0000000063719272,
+   "mu2": 1.000000000006987,
+   "cost": "mass (k=0)",
+   "instance": "symmetric_blocker",
+   "d": 5
+  },
+  {
+   "status": "tight",
+   "rho": 0,
+   "cost": "mass (k=0)",
+   "instance": "staggered_pair",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 2,
+   "m": 5,
+   "ker_dim": 2,
+   "n_unit": 2,
+   "pencil_residual": 1.2614489250404621e-08,
+   "mu1": 1.0000000163940796,
+   "mu2": 0.9999980191275465,
+   "cost": "mass (k=0)",
+   "instance": "three_in_a_row",
+   "d": 5
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 3,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.0154097919779576e-16,
+   "mu1": 0.9999999997628151,
+   "mu2": 0.417125604908212,
+   "cost": "derivative (control)",
+   "instance": "three_blocker s1=0.12"
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.8301721256429584e-06,
+   "mu1": 1.0000004176969863,
+   "mu2": 0.747975078389181,
+   "cost": "weighted 1+4s",
+   "instance": "three_blocker s1=0.12"
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 3,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.0413751943577512e-16,
+   "mu1": 0.9999999998875787,
+   "mu2": 0.7962842336798623,
+   "cost": "tikhonov +lambda I",
+   "instance": "three_blocker s1=0.12"
+  },
+  {
+   "status": "ok",
+   "rho": 2,
+   "m": 3,
+   "ker_dim": 2,
+   "n_unit": 2,
+   "pencil_residual": 1.586363283491825e-16,
+   "mu1": 0.9999999987178935,
+   "mu2": 0.999999997803979,
+   "cost": "mass (k=0)",
+   "instance": "three_blocker s1=0.12"
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 3,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 2.4872273715844534e-16,
+   "mu1": 0.9999999999191184,
+   "mu2": 0.4171497826979584,
+   "cost": "derivative (control)",
+   "instance": "three_blocker R^3",
+   "d": 3,
+   "n": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 2,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.706068175092493e-07,
+   "mu1": 1.0000000389401131,
+   "mu2": 0.7479777240324893,
+   "cost": "weighted 1+4s",
+   "instance": "three_blocker R^3",
+   "d": 3,
+   "n": 3
+  },
+  {
+   "status": "ok",
+   "rho": 1,
+   "m": 3,
+   "ker_dim": 1,
+   "n_unit": 1,
+   "pencil_residual": 1.518048813354737e-16,
+   "mu1": 0.9999999998441301,
+   "mu2": 0.7962919898085296,
+   "cost": "tikhonov +lambda I",
+   "instance": "three_blocker R^3",
+   "d": 3,
+   "n": 3
+  },
+  {
+   "status": "ok",
+   "rho": 2,
+   "m": 3,
+   "ker_dim": 2,
+   "n_unit": 2,
+   "pencil_residual": 9.158872723083617e-17,
+   "mu1": 0.9999999948686258,
+   "mu2": 0.9999999925177085,
+   "cost": "mass (k=0)",
+   "instance": "three_blocker R^3",
+   "d": 3,
+   "n": 3
+  }
+ ]
+}

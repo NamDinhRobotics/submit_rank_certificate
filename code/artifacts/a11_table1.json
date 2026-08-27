@@ -1,0 +1,149 @@
+{
+ "gates": {
+  "a11a_table1_certified": {
+   "rows": [
+    {
+     "k": 1,
+     "d": 1,
+     "l": 0,
+     "N": 12,
+     "eta": 0,
+     "r": 11,
+     "f_single": 0,
+     "scale": 1.0,
+     "raw_min": 0.0,
+     "raw_min_rel": 0.0,
+     "elev_min": 0.0,
+     "elev_min_rel": 0.0,
+     "certified": true,
+     "name": "velocity"
+    },
+    {
+     "k": 2,
+     "d": 3,
+     "l": 2,
+     "N": 6,
+     "eta": 2,
+     "r": 3,
+     "f_single": -2,
+     "scale": 1.0,
+     "raw_min": -1.7895497189394585e-18,
+     "raw_min_rel": -1.7895497189394585e-18,
+     "elev_min": -1.659686049166075e-18,
+     "elev_min_rel": -1.659686049166075e-18,
+     "certified": true,
+     "name": "acceleration"
+    },
+    {
+     "k": 3,
+     "d": 5,
+     "l": 3,
+     "N": 4,
+     "eta": 3,
+     "r": 4,
+     "f_single": -2,
+     "scale": 1.0,
+     "raw_min": -9.9442091649387e-20,
+     "raw_min_rel": -9.9442091649387e-20,
+     "elev_min": -3.738009614439619e-21,
+     "elev_min_rel": -3.738009614439619e-21,
+     "certified": true,
+     "name": "jerk"
+    },
+    {
+     "k": 4,
+     "d": 7,
+     "l": 4,
+     "N": 3,
+     "eta": 4,
+     "r": 4,
+     "f_single": -2,
+     "scale": 1.0,
+     "raw_min": -1.9308329265871676e-22,
+     "raw_min_rel": -1.9308329265871676e-22,
+     "elev_min": -4.600696042694584e-23,
+     "elev_min_rel": -4.600696042694584e-23,
+     "certified": true,
+     "name": "snap"
+    }
+   ],
+   "n": 4,
+   "n_certified": 4,
+   "worst_elev_rel": -1.659686049166075e-18,
+   "all_single_seg_degenerate": true,
+   "passed": true
+  },
+  "a11b_configuration_only": {
+   "rows": [
+    {
+     "name": "velocity",
+     "max_abs_diff": 0.0
+    },
+    {
+     "name": "acceleration",
+     "max_abs_diff": 0.0
+    },
+    {
+     "name": "jerk",
+     "max_abs_diff": 0.0
+    },
+    {
+     "name": "snap",
+     "max_abs_diff": 0.0
+    }
+   ],
+   "probes": [
+    "1 obstacle, R^2",
+    "2 obstacles, R^2",
+    "15 obstacles, R^3",
+    "30 obstacles, R^5"
+   ],
+   "worst": 0.0,
+   "passed": true
+  },
+  "a11c_cone_route_shut": {
+   "r_values": {
+    "velocity": 11,
+    "acceleration": 3,
+    "jerk": 4,
+    "snap": 4
+   },
+   "n_with_r_gt_2": 4,
+   "passed": true
+  }
+ },
+ "table1": [
+  [
+   "velocity",
+   1,
+   1,
+   0,
+   12,
+   0
+  ],
+  [
+   "acceleration",
+   2,
+   3,
+   2,
+   6,
+   2
+  ],
+  [
+   "jerk",
+   3,
+   5,
+   3,
+   4,
+   3
+  ],
+  [
+   "snap",
+   4,
+   7,
+   4,
+   3,
+   4
+  ]
+ ]
+}

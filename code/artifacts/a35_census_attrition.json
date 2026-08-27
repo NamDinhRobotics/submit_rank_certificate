@@ -1,0 +1,26 @@
+{
+ "gates": {
+  "a35a_attrition": {
+   "n_draws": 600,
+   "accounted": 600,
+   "counts": {
+    "dropped: tight (rho = 0)": 540,
+    "kept: solved and loose": 60
+   },
+   "n_kept": 60,
+   "passed": true
+  },
+  "a35b_no_hidden_low_margin": {
+   "n_solver_failures": 0,
+   "n_rescued_by_scs": 0,
+   "n_rescued_loose": 0,
+   "n_margins": 0,
+   "min_rescued_margin": null,
+   "census_floor": 0.5028157959876302,
+   "n_below_floor": 0,
+   "rescued": [],
+   "passed": true
+  }
+ },
+ "seed": 20260806
+}

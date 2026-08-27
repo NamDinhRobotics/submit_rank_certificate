@@ -1,0 +1,260 @@
+{
+ "description": "What the gap rank does when the robots have to avoid each other.",
+ "family": {
+  "d": 3,
+  "k": 1,
+  "l": 0,
+  "n": 2
+ },
+ "gates": {
+  "a22a_R1_reproduces_single_robot": {
+   "multirobot": 17.33333333333448,
+   "segment": 17.3333333333484,
+   "abs_diff": 1.3919532193540363e-11,
+   "rho_multirobot": 1,
+   "rho_segment": 1,
+   "passed": true
+  },
+  "a22b_rho2_with_active_pair_contact": {
+   "witnesses": [
+    "cross2"
+   ],
+   "n": 1,
+   "note": "rho >= 2 while the robot-robot constraint is tight, so the single-robot bound fails for genuinely interacting robots and not merely for a direct sum of independent ones",
+   "passed": true
+  },
+  "a22c_decoupled_rho_equals_R": {
+   "decoupled2": 2,
+   "decoupled3": 3,
+   "n_rho2": 4,
+   "n_arbitrated": 4,
+   "passed": true
+  },
+  "a22d_incidence_gram_blocks_perron": {
+   "with_pair_contacts": [
+    "swap2",
+    "cross2"
+   ],
+   "n_L_negative": 1,
+   "note": "a negative entry in L makes Gr = L * B indefinite in sign however positive the Green kernel B is",
+   "passed": true,
+   "note2": "reported per instance"
+  }
+ },
+ "control_R1": {
+  "multirobot": 17.33333333333448,
+  "segment": 17.3333333333484,
+  "abs_diff": 1.3919532193540363e-11,
+  "rho_multirobot": 1,
+  "rho_segment": 1
+ },
+ "instances": [
+  {
+   "name": "swap2",
+   "what": "two robots head-on: ONE decision, who passes above",
+   "R": 2,
+   "rho": 1,
+   "cost": 32.96000000000615,
+   "status": "optimal",
+   "lam1": 0.6400000000031675,
+   "lam2": 6.157067134800621e-13,
+   "lam2_over_lam1": 9.620417398078357e-13,
+   "pair_clearance": -0.36,
+   "obstacle_clearance": Infinity,
+   "pairwise_active": true,
+   "contacts": [
+    [
+     "pair",
+     0,
+     1
+    ]
+   ],
+   "L_has_negative": false,
+   "L_min": 2.0,
+   "arbitration": null
+  },
+  {
+   "name": "decoupled2",
+   "what": "two independent single-robot problems, each undecided",
+   "R": 2,
+   "rho": 2,
+   "cost": 34.160000000000295,
+   "status": "optimal",
+   "lam1": 0.7349385336222605,
+   "lam2": 0.704385784156485,
+   "lam2_over_lam1": 0.9584281568212359,
+   "pair_clearance": Infinity,
+   "obstacle_clearance": -0.20240498231867138,
+   "pairwise_active": false,
+   "contacts": [
+    [
+     "obs",
+     0,
+     0
+    ],
+    [
+     "obs",
+     1,
+     0
+    ]
+   ],
+   "L_has_negative": false,
+   "L_min": 0.0,
+   "arbitration": {
+    "solver": "SCS",
+    "rho": 2,
+    "cost": 34.15999999998088,
+    "status": "optimal"
+   }
+  },
+  {
+   "name": "decoupled3",
+   "what": "three independent single-robot problems",
+   "R": 3,
+   "rho": 3,
+   "cost": 51.240000000006305,
+   "status": "optimal",
+   "lam1": 0.7270550224176253,
+   "lam2": 0.7200000000006117,
+   "lam2_over_lam1": 0.9902964394722781,
+   "pair_clearance": Infinity,
+   "obstacle_clearance": -0.2025,
+   "pairwise_active": false,
+   "contacts": [
+    [
+     "obs",
+     0,
+     0
+    ],
+    [
+     "obs",
+     1,
+     0
+    ],
+    [
+     "obs",
+     2,
+     0
+    ]
+   ],
+   "L_has_negative": false,
+   "L_min": 0.0,
+   "arbitration": {
+    "solver": "SCS",
+    "rho": 3,
+    "cost": 51.24000000619226,
+    "status": "optimal"
+   }
+  },
+  {
+   "name": "cross2",
+   "what": "perpendicular crossing around a shared obstacle: COUPLED",
+   "R": 2,
+   "rho": 2,
+   "cost": 33.70666666666699,
+   "status": "optimal",
+   "lam1": 0.8858338163303927,
+   "lam2": 0.25194396144750836,
+   "lam2_over_lam1": 0.2844144768498428,
+   "pair_clearance": -0.25,
+   "obstacle_clearance": -0.16000000000000003,
+   "pairwise_active": true,
+   "contacts": [
+    [
+     "obs",
+     0,
+     0
+    ],
+    [
+     "obs",
+     1,
+     0
+    ],
+    [
+     "pair",
+     0,
+     1
+    ]
+   ],
+   "L_has_negative": true,
+   "L_min": -1.0,
+   "arbitration": {
+    "solver": "SCS",
+    "rho": 2,
+    "cost": 33.70666666627219,
+    "status": "optimal"
+   }
+  },
+  {
+   "name": "own_obs2",
+   "what": "own obstacles with pairwise avoidance switched on",
+   "R": 2,
+   "rho": 2,
+   "cost": 34.6666666666682,
+   "status": "optimal",
+   "lam1": 0.7086252849967676,
+   "lam2": 0.6148885569720793,
+   "lam2_over_lam1": 0.867720317057109,
+   "pair_clearance": 1.19,
+   "obstacle_clearance": -0.1861191347448807,
+   "pairwise_active": false,
+   "contacts": [
+    [
+     "obs",
+     0,
+     0
+    ],
+    [
+     "obs",
+     1,
+     0
+    ]
+   ],
+   "L_has_negative": false,
+   "L_min": 0.0,
+   "arbitration": {
+    "solver": "SCS",
+    "rho": 2,
+    "cost": 34.66666666869046,
+    "status": "optimal"
+   }
+  },
+  {
+   "name": "cycle3",
+   "what": "cyclic permutation in open space: is the class unique?",
+   "R": 3,
+   "rho": 0,
+   "cost": 35.340000000000636,
+   "status": "optimal",
+   "lam1": 2.1939504841546614e-13,
+   "lam2": 1.3360451173207409e-13,
+   "lam2_over_lam1": 0.6089677624768841,
+   "pair_clearance": 2.529999962549185,
+   "obstacle_clearance": Infinity,
+   "pairwise_active": false,
+   "contacts": [],
+   "L_has_negative": false,
+   "L_min": null,
+   "arbitration": null
+  },
+  {
+   "name": "cycle4",
+   "what": "cyclic permutation in open space: is the class unique?",
+   "R": 4,
+   "rho": 0,
+   "cost": 31.99999999999789,
+   "status": "optimal",
+   "lam1": 3.999780419457546e-13,
+   "lam2": 3.410850751349235e-13,
+   "lam2_over_lam1": 0.8527595001857171,
+   "pair_clearance": 3.6400000090563327,
+   "obstacle_clearance": Infinity,
+   "pairwise_active": false,
+   "contacts": [],
+   "L_has_negative": false,
+   "L_min": null,
+   "arbitration": null
+  }
+ ],
+ "runtime_s": 1.1245781250181608
+}

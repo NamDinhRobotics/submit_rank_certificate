@@ -1,0 +1,79 @@
+{
+ "gates": {
+  "a41a_kkt_over_Q": {
+   "pencil_exact": true,
+   "stationarity_exact": true,
+   "tangency_exact": [
+    true,
+    true,
+    true
+   ],
+   "quotient_positive": [
+    true,
+    true,
+    true
+   ],
+   "weights_positive": true,
+   "centre": "8/5",
+   "radii_sq": [
+    "18549/2000000",
+    "1133/28800",
+    "18549/2000000"
+   ],
+   "passed": true
+  },
+  "a41b_S_definite_over_Q": {
+   "S": [
+    [
+     "3/20",
+     "-49/3240"
+    ],
+    [
+     "-49/3240",
+     "3/20"
+    ]
+   ],
+   "det": "46759/2099520",
+   "trace": "3/10",
+   "rho": 2,
+   "f": 2,
+   "passed": true
+  },
+  "a41c_numerical_agreement": {
+   "readings": [
+    {
+     "solver": "CLARABEL",
+     "tol": 1e-11,
+     "status": "optimal",
+     "value": 16.37092592587453,
+     "rho": 2
+    },
+    {
+     "solver": "SCS",
+     "tol": 1e-10,
+     "status": "optimal",
+     "value": 16.370925925935023,
+     "rho": 2
+    }
+   ],
+   "witness_value": 16.370925925925924,
+   "worst_gap": 5.1393556077528046e-11,
+   "passed": true
+  },
+  "a41d_hypothesis1_over_Q": {
+   "found": true,
+   "control_points": {
+    "p": "-2",
+    "h": "3/10"
+   },
+   "passed": true
+  },
+  "a41e_not_delicate": {
+   "n_witnesses": 3946,
+   "chosen_in_box": true,
+   "margin": 0.1507255,
+   "ratio": 0.8168224299065421,
+   "passed": true
+  }
+ }
+}

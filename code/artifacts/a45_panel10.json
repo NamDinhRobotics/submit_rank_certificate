@@ -1,0 +1,1249 @@
+{
+ "gates": {
+  "a45a_chain_steps": {
+   "n": 16,
+   "n_strict_complementarity": 16,
+   "n_no_rank_outside_block": 16,
+   "worst_sc_defect": 0,
+   "worst_outside_block": 0,
+   "n_step1_tight": 16,
+   "n_step2_tight": 16,
+   "rows": [
+    {
+     "tag": "symmetric_blocker",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "staggered_pair",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "three_in_a_row",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census2",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census5",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census7",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census20",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census26",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census33",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census66",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census79",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census94",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census110",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census112",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census114",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    },
+    {
+     "tag": "census118",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "sc_defect": 0,
+     "outside_block": 0,
+     "bound_step1": 1,
+     "dim_ker_Z": 1
+    }
+   ],
+   "passed": true,
+   "tolerance_sweep": {
+    "1e-05": {
+     "n": 16,
+     "sc": 16,
+     "ob": 16
+    },
+    "1e-06": {
+     "n": 16,
+     "sc": 16,
+     "ob": 16
+    },
+    "1e-07": {
+     "n": 16,
+     "sc": 16,
+     "ob": 16
+    },
+    "1e-08": {
+     "n": 16,
+     "sc": 15,
+     "ob": 16
+    },
+    "1e-09": {
+     "n": 16,
+     "sc": 10,
+     "ob": 14
+    }
+   },
+   "tol": 1e-07,
+   "stable_from": 1e-05,
+   "stable_to": 1e-07
+  },
+  "a45b_pataki": {
+   "n": 123,
+   "min_pataki": 1,
+   "max_pataki": 4,
+   "n_f_tighter_than_pataki": 48,
+   "rows": [
+    {
+     "tag": "symmetric_blocker",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "staggered_pair",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "three_in_a_row",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census1",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census2",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census3",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census4",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census5",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census6",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census7",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census8",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census9",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census10",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census11",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census12",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census13",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census14",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census15",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census16",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census17",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census18",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census19",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census20",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census21",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census22",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census23",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census24",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census25",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census26",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census27",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census28",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census29",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census30",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census31",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census32",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census33",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census34",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census35",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census36",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census37",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census38",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census39",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census40",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census41",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census42",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census43",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census44",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census45",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census46",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census47",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census48",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census49",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census50",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census51",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census52",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census53",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census54",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census55",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census56",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census57",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census58",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census59",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census60",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census61",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census62",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census63",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census64",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census65",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census66",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census67",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census68",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census69",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census70",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census71",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census72",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census73",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census74",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census75",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census76",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census77",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census78",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census79",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census80",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census81",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census82",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census83",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census84",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census85",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census86",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census87",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census88",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census89",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census90",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census91",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census92",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census93",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census94",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census95",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census96",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census97",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census98",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census99",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census100",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census101",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census102",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census103",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census104",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census105",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census106",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census107",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census108",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census109",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census110",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census111",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census112",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census113",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census114",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census115",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census116",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census117",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 14,
+     "pataki_rho": 2
+    },
+    {
+     "tag": "census118",
+     "n": 2,
+     "f": 2,
+     "rho": 1,
+     "m_eq": 21,
+     "pataki_rho": 4
+    },
+    {
+     "tag": "census119",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 7,
+     "pataki_rho": 1
+    },
+    {
+     "tag": "census120",
+     "n": 2,
+     "f": 2,
+     "rho": 0,
+     "m_eq": 21,
+     "pataki_rho": 4
+    }
+   ],
+   "passed": true
+  },
+  "a45c_cut_sensitivity": {
+   "n_posed": 72,
+   "n_solved": 56,
+   "n_arbitrated": 15,
+   "cut_used": 100.0,
+   "n_rho2_at_cut": 15,
+   "counts_by_cut": {
+    "1e0": 15,
+    "1e1": 15,
+    "1e2": 15,
+    "1e3": 15,
+    "1e4": 13,
+    "1e5": 10,
+    "1e6": 3,
+    "1e7": 0,
+    "1e8": 0
+   },
+   "flat_from": 1.0,
+   "flat_to": 1000.0,
+   "n_distinct_counts": 5,
+   "signal_over_resid_sorted": [
+    2193.933813942593,
+    8091.775451700207,
+    23401.55143117636,
+    41060.106380182675,
+    79034.10544222828,
+    124896.74420431841,
+    163206.75392531604,
+    253205.05929519044,
+    322499.4878344567,
+    506300.23892127746,
+    648825.5728778263,
+    963067.7652939024,
+    1950421.5414105537,
+    4492627.998569756,
+    8427451.167245774
+   ],
+   "passed": true
+  },
+  "a45d_versions": {
+   "versions": {
+    "clarabel": "0.11.1",
+    "scs": "3.2.11",
+    "cvxpy": "1.9.2",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "sympy": "1.14.0"
+   },
+   "passed": true
+  }
+ }
+}

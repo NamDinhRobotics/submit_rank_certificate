@@ -1,0 +1,37 @@
+# This tree is BOTH the submission bundle and the published artifact repository,
+# and the two want different contents.
+#
+# The manuscript belongs on arXiv, which gives it an identifier and a version
+# history that a PDF in a git repository does not.  A paper committed here would
+# go stale the first time the manuscript is revised, with nothing on its face to
+# say which version it was -- and once the paper is accepted, a bare PDF with no
+# copyright notice is a needless tangle.  So git tracks the code and the video;
+# the paper stays local, for uploading where it belongs.
+#
+# `code/paper/` IS NOT PUBLISHED AT ALL -- authors' decision, 2026-08-27.  It
+# holds the manuscript sources, the figure and video makers, `audit_paper.py`
+# and `verify_prop9_proof.py`: the machinery that BUILDS the paper rather than
+# the science it reports.  All of it still ships to reviewers inside
+# `code.tar.gz`, which is confidential; only the public mirror drops it.
+#
+# WHAT THAT COSTS, said plainly rather than discovered later: a clone can
+# re-solve every experiment and re-read every gate, but it cannot re-draw the
+# figures, re-render the videos, or run the audit that ties each number in the
+# text back to its artifact.  `run_all.sh` skips those steps when the directory
+# is absent instead of failing, and the README says where they live.
+#
+# `artifact-anonymous.zip` is the bundle for double-anonymous review.  It is a
+# copy of what is already in this repository, minus the identity, and a repo
+# that carries the authors' names has no use for it.
+artifact-anonymous.zip
+automatica/
+automatica_anon/
+extendedfalse_check/
+arxiv/
+abstract.txt
+UPLOADING.md
+cover_letter.txt
+*-source.zip
+*-source.tar.gz
+code.tar.gz
+code/paper/

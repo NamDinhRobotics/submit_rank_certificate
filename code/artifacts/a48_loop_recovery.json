@@ -1,0 +1,252 @@
+{
+ "gates": {
+  "a48a_loop_soundness": {
+   "worst_certified_exec_clearance": 0.07024486262061524,
+   "passed": true
+  },
+  "a48b_paired": {
+   "n_runs": 30,
+   "cert_success": 13,
+   "naive_success": 10,
+   "cert_curve_collisions": 0,
+   "naive_curve_collisions": 4,
+   "cert_kicked": 6,
+   "naive_kicked": 4,
+   "cert_belt_infeasible": 10,
+   "naive_belt_infeasible": 11,
+   "n_zero_recovery_runs": 16,
+   "n_paired_identical": 16,
+   "passed": true
+  },
+  "a48c_recovery_exercised": {
+   "events": 15,
+   "median_solve_ms": 32.60207176208496,
+   "median_recovery_ms": 481.45318031311035,
+   "passed": true
+  },
+  "a48d_stalls": {
+   "stalls": 0,
+   "cert_steps": 196,
+   "passed": true
+  },
+  "a48e_attribution": {
+   "cert_curve_faults": 0,
+   "naive_curve_faults": 4,
+   "cert_disturbance_faults": 16,
+   "naive_disturbance_faults": 15,
+   "passed": true
+  }
+ },
+ "runs": [
+  {
+   "i": 0,
+   "naive": "tightened_infeasible",
+   "cert": "success",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 1,
+   "naive": "tightened_infeasible",
+   "cert": "success",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 2,
+   "naive": "collision",
+   "cert": "kicked_into_obstacle",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 3,
+   "naive": "tightened_infeasible",
+   "cert": "tightened_infeasible",
+   "recoveries": 2,
+   "stalls": 0
+  },
+  {
+   "i": 4,
+   "naive": "tightened_infeasible",
+   "cert": "tightened_infeasible",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 5,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 6,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 7,
+   "naive": "collision",
+   "cert": "tightened_infeasible",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 8,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 9,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 10,
+   "naive": "kicked_into_obstacle",
+   "cert": "kicked_into_obstacle",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 11,
+   "naive": "kicked_into_obstacle",
+   "cert": "tightened_infeasible",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 12,
+   "naive": "success",
+   "cert": "kicked_into_obstacle",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 13,
+   "naive": "tightened_infeasible",
+   "cert": "tightened_infeasible",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 14,
+   "naive": "tightened_infeasible",
+   "cert": "tightened_infeasible",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 15,
+   "naive": "tightened_infeasible",
+   "cert": "success",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 16,
+   "naive": "kicked_into_obstacle",
+   "cert": "kicked_into_obstacle",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 17,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 18,
+   "naive": "tightened_infeasible",
+   "cert": "success",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 19,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 20,
+   "naive": "tightened_infeasible",
+   "cert": "tightened_infeasible",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 21,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 22,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 23,
+   "naive": "solver_fail",
+   "cert": "solver_fail",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 24,
+   "naive": "success",
+   "cert": "success",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 25,
+   "naive": "collision",
+   "cert": "tightened_infeasible",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 26,
+   "naive": "tightened_infeasible",
+   "cert": "tightened_infeasible",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 27,
+   "naive": "kicked_into_obstacle",
+   "cert": "kicked_into_obstacle",
+   "recoveries": 0,
+   "stalls": 0
+  },
+  {
+   "i": 28,
+   "naive": "collision",
+   "cert": "kicked_into_obstacle",
+   "recoveries": 1,
+   "stalls": 0
+  },
+  {
+   "i": 29,
+   "naive": "tightened_infeasible",
+   "cert": "tightened_infeasible",
+   "recoveries": 0,
+   "stalls": 0
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "gates": {
+  "a39a_named_slater": {
+   "n": 27,
+   "n_strict": 27,
+   "min_t": 0.7974999879863105,
+   "passed": true
+  },
+  "a39b_census_slater": {
+   "n": 20,
+   "n_strict": 20,
+   "min_t": 0.14046764154029662,
+   "passed": true,
+   "n_at_cap": 25,
+   "n_all": 47
+  },
+  "a39c_lemma_witness": {
+   "n": 9,
+   "min_eig": 0.0005818221308119323,
+   "worst_resid": 5.312417172831374e-13,
+   "passed": true
+  },
+  "a39d_counterexample_clearance": {
+   "n": 7,
+   "n_clear": 7,
+   "min_clear": 0.024213825193447416,
+   "cells": [
+    {
+     "s1": 0.08,
+     "rmid": 0.6,
+     "clear": 0.024213825193447416
+    },
+    {
+     "s1": 0.08,
+     "rmid": 0.5,
+     "clear": 0.024213825193447416
+    },
+    {
+     "s1": 0.09,
+     "rmid": 0.6,
+     "clear": 0.03056670423629508
+    },
+    {
+     "s1": 0.09,
+     "rmid": 0.5,
+     "clear": 0.03056670423629508
+    },
+    {
+     "s1": 0.1,
+     "rmid": 0.6,
+     "clear": 0.03764364473565206
+    },
+    {
+     "s1": 0.1,
+     "rmid": 0.5,
+     "clear": 0.03764364473565206
+    },
+    {
+     "s1": 0.12,
+     "rmid": 0.6,
+     "clear": 0.06112078237904918
+    }
+   ],
+   "passed": true
+  }
+ },
+ "rows": [
+  {
+   "name": "symmetric_blocker k=1 d=3",
+   "kind": "named",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999999917496,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=1 d=3",
+   "kind": "named",
+   "d": 3,
+   "k": 1,
+   "t": 0.999999996570414,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=1 d=3",
+   "kind": "named",
+   "d": 3,
+   "k": 1,
+   "t": 0.7974999991478939,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=1 d=3",
+   "kind": "named",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999999917496,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=1 d=3",
+   "kind": "named",
+   "d": 3,
+   "k": 1,
+   "t": 0.999999996570414,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=1 d=3",
+   "kind": "named",
+   "d": 3,
+   "k": 1,
+   "t": 0.7974999991478939,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=1 d=5",
+   "kind": "named",
+   "d": 5,
+   "k": 1,
+   "t": 0.9999999993393032,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=1 d=5",
+   "kind": "named",
+   "d": 5,
+   "k": 1,
+   "t": 0.9999999898631888,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=1 d=5",
+   "kind": "named",
+   "d": 5,
+   "k": 1,
+   "t": 0.7974999894018763,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=2 d=5",
+   "kind": "named",
+   "d": 5,
+   "k": 2,
+   "t": 0.9999999993779851,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=2 d=5",
+   "kind": "named",
+   "d": 5,
+   "k": 2,
+   "t": 0.9999999979348637,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=2 d=5",
+   "kind": "named",
+   "d": 5,
+   "k": 2,
+   "t": 0.7974999992578805,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=2 d=7",
+   "kind": "named",
+   "d": 7,
+   "k": 2,
+   "t": 0.9999999995563926,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=2 d=7",
+   "kind": "named",
+   "d": 7,
+   "k": 2,
+   "t": 0.9999999974632241,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=2 d=7",
+   "kind": "named",
+   "d": 7,
+   "k": 2,
+   "t": 0.7974999997242443,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=3 d=7",
+   "kind": "named",
+   "d": 7,
+   "k": 3,
+   "t": 0.9999999994722395,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=3 d=7",
+   "kind": "named",
+   "d": 7,
+   "k": 3,
+   "t": 0.9999999683427286,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=3 d=7",
+   "kind": "named",
+   "d": 7,
+   "k": 3,
+   "t": 0.7974999879863105,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=3 d=9",
+   "kind": "named",
+   "d": 9,
+   "k": 3,
+   "t": 0.999999998671579,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=3 d=9",
+   "kind": "named",
+   "d": 9,
+   "k": 3,
+   "t": 0.9999999927130975,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=3 d=9",
+   "kind": "named",
+   "d": 9,
+   "k": 3,
+   "t": 0.797499999155292,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=4 d=9",
+   "kind": "named",
+   "d": 9,
+   "k": 4,
+   "t": 0.999999998330207,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=4 d=9",
+   "kind": "named",
+   "d": 9,
+   "k": 4,
+   "t": 0.9999999994783848,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=4 d=9",
+   "kind": "named",
+   "d": 9,
+   "k": 4,
+   "t": 0.7974999997944242,
+   "status": "optimal"
+  },
+  {
+   "name": "symmetric_blocker k=4 d=11",
+   "kind": "named",
+   "d": 11,
+   "k": 4,
+   "t": 0.9999999998172933,
+   "status": "optimal"
+  },
+  {
+   "name": "staggered_pair k=4 d=11",
+   "kind": "named",
+   "d": 11,
+   "k": 4,
+   "t": 0.9999999990412676,
+   "status": "optimal"
+  },
+  {
+   "name": "three_in_a_row k=4 d=11",
+   "kind": "named",
+   "d": 11,
+   "k": 4,
+   "t": 0.7974999953867766,
+   "status": "optimal"
+  },
+  {
+   "name": "census 0",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999994772292,
+   "status": "optimal"
+  },
+  {
+   "name": "census 1",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.2268080588523634,
+   "status": "optimal"
+  },
+  {
+   "name": "census 2",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999990299924,
+   "status": "optimal"
+  },
+  {
+   "name": "census 3",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999930271242,
+   "status": "optimal"
+  },
+  {
+   "name": "census 4",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.5016348489506393,
+   "status": "optimal"
+  },
+  {
+   "name": "census 5",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.3718612990536553,
+   "status": "optimal"
+  },
+  {
+   "name": "census 6",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999996786761,
+   "status": "optimal"
+  },
+  {
+   "name": "census 7",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999998065953,
+   "status": "optimal"
+  },
+  {
+   "name": "census 8",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.8085760107290375,
+   "status": "optimal"
+  },
+  {
+   "name": "census 9",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.8513772347449717,
+   "status": "optimal"
+  },
+  {
+   "name": "census 10",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.5665039429115956,
+   "status": "optimal"
+  },
+  {
+   "name": "census 11",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.999999997572271,
+   "status": "optimal"
+  },
+  {
+   "name": "census 12",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.14046764154029662,
+   "status": "optimal"
+  },
+  {
+   "name": "census 13",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.9999999999022675,
+   "status": "optimal"
+  },
+  {
+   "name": "census 14",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.1991170519842533,
+   "status": "optimal"
+  },
+  {
+   "name": "census 15",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.7632586048067823,
+   "status": "optimal"
+  },
+  {
+   "name": "census 16",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.8287644638170828,
+   "status": "optimal"
+  },
+  {
+   "name": "census 17",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.7981031434258016,
+   "status": "optimal"
+  },
+  {
+   "name": "census 18",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.9958886041327563,
+   "status": "optimal"
+  },
+  {
+   "name": "census 19",
+   "kind": "census",
+   "d": 3,
+   "k": 1,
+   "t": 0.26838973276073796,
+   "status": "optimal"
+  }
+ ],
+ "witnesses": [
+  {
+   "name": "symmetric_blocker k=1 d=3",
+   "clearance": 0.0921485220247873,
+   "min_eig": 0.0013332907285517762,
+   "resid": 9.69502256253918e-14
+  },
+  {
+   "name": "staggered_pair k=1 d=3",
+   "clearance": 0.2844038909872409,
+   "min_eig": 0.0015635728610905533,
+   "resid": 3.930189507173054e-14
+  },
+  {
+   "name": "three_in_a_row k=1 d=3",
+   "clearance": 0.1364435304879068,
+   "min_eig": 0.0005818221308119323,
+   "resid": 5.312417172831374e-13
+  },
+  {
+   "name": "symmetric_blocker k=1 d=3",
+   "clearance": 0.0921485220247873,
+   "min_eig": 0.0013332907285517762,
+   "resid": 9.69502256253918e-14
+  },
+  {
+   "name": "staggered_pair k=1 d=3",
+   "clearance": 0.2844038909872409,
+   "min_eig": 0.0015635728610905533,
+   "resid": 3.930189507173054e-14
+  },
+  {
+   "name": "three_in_a_row k=1 d=3",
+   "clearance": 0.1364435304879068,
+   "min_eig": 0.0005818221308119323,
+   "resid": 5.312417172831374e-13
+  },
+  {
+   "name": "symmetric_blocker k=1 d=5",
+   "clearance": 0.181403183274347,
+   "min_eig": 0.0006041091414027735,
+   "resid": 1.438849039914203e-13
+  },
+  {
+   "name": "staggered_pair k=1 d=5",
+   "clearance": 0.05445986042049722,
+   "min_eig": 0.0006041091414027735,
+   "resid": 3.019806626980426e-14
+  },
+  {
+   "name": "three_in_a_row k=1 d=5",
+   "clearance": 0.5051953312090339,
+   "min_eig": 0.0006041091414027735,
+   "resid": 8.704148513061227e-14
+  }
+ ]
+}

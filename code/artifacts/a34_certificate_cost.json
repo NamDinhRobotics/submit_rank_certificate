@@ -1,0 +1,165 @@
+{
+ "env": {
+  "cpu": "Apple M5 Pro",
+  "machine": "arm64",
+  "python": "3.12.2",
+  "instance": "one obstacle, R^2, per Table I configuration"
+ },
+ "gates": {
+  "a34a_apriori_cost": {
+   "rows": [
+    {
+     "name": "velocity",
+     "k": 1,
+     "d": 1,
+     "l": 0,
+     "N": 12,
+     "eta": 0,
+     "r": 11,
+     "certified": true,
+     "apriori_ms": 269.6012909946148,
+     "apriori_all_ms": [
+      276.74266699614236,
+      268.81704100378556,
+      269.6012909946148
+     ],
+     "solve_fresh_ms": 63.18391700187931,
+     "solve_fresh_all_ms": [
+      1013.3335420032381,
+      62.74662500072736,
+      63.18391700187931
+     ],
+     "solve_warm_ms": 5.66600000456674,
+     "solve_warm_all_ms": [
+      5.745667003793642,
+      5.370541002776008,
+      5.66600000456674
+     ],
+     "ratio_one_fresh_solve": 0.23436058769889712,
+     "ratio_one_warm_solve": 0.021016219854377165,
+     "converged": true
+    },
+    {
+     "name": "acceleration",
+     "k": 2,
+     "d": 3,
+     "l": 2,
+     "N": 6,
+     "eta": 2,
+     "r": 3,
+     "certified": true,
+     "apriori_ms": 97.67891700175824,
+     "apriori_all_ms": [
+      97.67891700175824,
+      98.09458300151164,
+      96.66129099787213
+     ],
+     "solve_fresh_ms": 55.513999999675434,
+     "solve_fresh_all_ms": [
+      55.513999999675434,
+      54.3420000030892,
+      77.47300000482937
+     ],
+     "solve_warm_ms": 2.783833995636087,
+     "solve_warm_all_ms": [
+      2.770125000097323,
+      2.783833995636087,
+      3.1565840035909787
+     ],
+     "ratio_one_fresh_solve": 0.5683314445293878,
+     "ratio_one_warm_solve": 0.02849984501349434,
+     "converged": true
+    },
+    {
+     "name": "jerk",
+     "k": 3,
+     "d": 5,
+     "l": 3,
+     "N": 4,
+     "eta": 3,
+     "r": 4,
+     "certified": true,
+     "apriori_ms": 55.049959002644755,
+     "apriori_all_ms": [
+      56.322125004953705,
+      54.90487499628216,
+      55.049959002644755
+     ],
+     "solve_fresh_ms": 62.63162499817554,
+     "solve_fresh_all_ms": [
+      60.19983299484011,
+      81.37708299909718,
+      62.63162499817554
+     ],
+     "solve_warm_ms": 3.9950829959707335,
+     "solve_warm_all_ms": [
+      3.9950829959707335,
+      4.010917000414338,
+      3.9689159966656007
+     ],
+     "ratio_one_fresh_solve": 1.1377233722402325,
+     "ratio_one_warm_solve": 0.07257195224757204,
+     "converged": true
+    },
+    {
+     "name": "snap",
+     "k": 4,
+     "d": 7,
+     "l": 4,
+     "N": 3,
+     "eta": 4,
+     "r": 4,
+     "certified": true,
+     "apriori_ms": 37.7282080007717,
+     "apriori_all_ms": [
+      37.7282080007717,
+      37.352375002228655,
+      38.2129999998142
+     ],
+     "solve_fresh_ms": 58.44862500089221,
+     "solve_fresh_all_ms": [
+      77.22429199930048,
+      58.249041001545265,
+      58.44862500089221
+     ],
+     "solve_warm_ms": 3.4420000010868534,
+     "solve_warm_all_ms": [
+      3.4420000010868534,
+      3.7020410018158145,
+      3.2202499933191575
+     ],
+     "ratio_one_fresh_solve": 1.5492022573586501,
+     "ratio_one_warm_solve": 0.0912314733055026,
+     "converged": false
+    }
+   ],
+   "n": 4,
+   "n_certified": 4,
+   "passed": true
+  },
+  "a34b_cheaper_than_one_solve": {
+   "min_ratio_fresh": 0.23436058769889712,
+   "max_ratio_fresh": 1.5492022573586501,
+   "median_ratio_fresh": 0.8530274083848102,
+   "min_ratio_warm": 0.021016219854377165,
+   "max_ratio_warm": 0.0912314733055026,
+   "n_instances": 200,
+   "amortised_share": [
+    0.021334645253680295,
+    0.008797683197241175,
+    0.004394741394962078,
+    0.003227467540955479
+   ],
+   "passed": true
+  },
+  "a34c_eig_negligible": {
+   "eig_ms": 0.0019169965526089072,
+   "m": 3,
+   "slowest_solve_ms": 63.18391700187931,
+   "eig_over_slowest_solve": 3.0339944776641326e-05,
+   "passed": true
+  }
+ },
+ "D_elev": 96,
+ "repeats": 3
+}

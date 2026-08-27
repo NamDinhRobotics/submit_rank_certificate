@@ -1,0 +1,20 @@
+{
+ "gates": {
+  "a37a_three_way_split": {
+   "n": 59,
+   "tighter": 22,
+   "equal": 35,
+   "looser": 2,
+   "passed": true
+  },
+  "a37b_false_refusals": {
+   "n_pool": 113,
+   "n_named": 53,
+   "n_census": 60,
+   "n_certifiable": 113,
+   "n_false_refusals": 0,
+   "min_margin": 0.4899251626276598,
+   "passed": true
+  }
+ }
+}
